@@ -1214,11 +1214,20 @@ section {
     position: relative;
 }
 
+.portfolio-placeholder.white-bg {
+    background: #ffffff;
+}
+
 .portfolio-placeholder img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: 0.5s ease;
+}
+
+.portfolio-placeholder img.contain-fit {
+    object-fit: contain;
+    padding: 2.5rem;
 }
 
 .portfolio-box:hover .portfolio-placeholder img {
