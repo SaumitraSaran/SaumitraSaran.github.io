@@ -75,7 +75,7 @@ ScrollReveal().reveal('.featured-box, .testimonial-box', { origin: 'bottom', int
 
 /*==================== typed js ====================*/
 const typed = new Typed('.multiple-text', {
-  strings: ['Backend Developer', 'DBMS Developer', 'Freelance Programmer', 'Founder', 'Learner', 'Leader'],
+  strings: ['Fullstack Developer', 'DBMS Developer', 'Freelance Programmer', 'AI/ML Enthusiast', 'Founder', 'Learner', 'Leader'],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
